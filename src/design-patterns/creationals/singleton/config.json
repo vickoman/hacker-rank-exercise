@@ -1,0 +1,5 @@
+{
+    "environment": "development",
+    "connectionString": "Server=ServerAdress;Database=myDatabase;UserId=myUsename;Password=myPassword;",
+    "apiUrl": "https://api.kodoti.com"
+}
