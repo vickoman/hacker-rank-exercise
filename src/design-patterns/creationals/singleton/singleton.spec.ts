@@ -6,7 +6,7 @@ let config = MyConfiguration.getInstance();
 
 describe("My Configuration class", ()=> {
 
-    it("Objects should not be null", () => {
+    it("Object should not be null", () => {
         expect( config !== null).to.equal(true);
     });
 
