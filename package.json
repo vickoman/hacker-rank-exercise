@@ -14,7 +14,8 @@
     "ts-node": "^9.1.1"
   },
   "scripts": {
-    "test-singleton": "mocha -r ts-node/register src/design-patterns/creationals/singleton/*.spec.ts"
+    "test-singleton": "mocha -r ts-node/register src/design-patterns/creationals/singleton/*.spec.ts",
+    "test-factory": "mocha -r ts-node/register src/design-patterns/creationals/factory/*.spec.ts"
   },
   "repository": {
     "type": "git",
