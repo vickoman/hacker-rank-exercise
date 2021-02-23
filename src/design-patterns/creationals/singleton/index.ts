@@ -1,16 +1,21 @@
 import config from "./config.json";
 
+/**
+ * 
+ * the singleton pattern is knowing to make reference to itselft
+ * save the reference to itself, so when you need to call again,
+ * it should return the reference saved and not another intance.
+ * 
+ */
 export default class MyConfiguration {
-    /**
-     * El patron singleton es conocido por hacer referencia a si mismo
-     * Guarda la referencia asi cuando se llame retorna la referencia a guardada
-     */
+
     private static instance: MyConfiguration;
 
     private static _connectionString: string;
     private static _environment: string;
     private static _apiUrl: string;
 
+    // Disable constructor. witch to private to keep hide.
     private constructor() {}
 
     private static init(): void {
@@ -23,8 +28,8 @@ export default class MyConfiguration {
         if (!this.instance) {
             this.init();
             this.instance = new MyConfiguration();
-        } 
-        
+        }
+
         return this.instance;
     }
 
