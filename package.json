@@ -1,0 +1,30 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "ts-node": "^9.1.1"
+  },
+  "scripts": {
+    "test-singleton": "mocha -r ts-node/register src/design-patterns/creationals/singleton/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickoman/hacker-rank-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickoman/hacker-rank-exercise/issues"
+  },
+  "homepage": "https://github.com/vickoman/hacker-rank-exercise#readme"
+}
