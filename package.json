@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test-singleton": "mocha -r ts-node/register src/design-patterns/creationals/singleton/*.spec.ts",
-    "test-factory": "mocha -r ts-node/register src/design-patterns/creationals/factory/*.spec.ts"
+    "test-factory": "mocha -r ts-node/register src/design-patterns/creationals/factory/*.spec.ts",
+    "test-mb": "mocha -r ts-node/register src/migration-birds/*.spec.ts"
   },
   "repository": {
     "type": "git",
