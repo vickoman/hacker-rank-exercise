@@ -4,13 +4,13 @@ I want to build this repository to put my notes and example that I'm learning, S
 
 # Design Pettern
 
-## Creatinosl - Singleton
+## Creational - Singleton
 Within a src folder you must be follow the example of singleton also a Readme to learn the concept and a Unit Test of the example.
 
 ### Run test of singleton 
 `npm run test-singleton`
 
-## Creatinosl - Factory
+## Creational - Factory
 Within a src folder you must be follow the example of Factory Method also a Readme to learn the concept and a Unit Test of the example.
 
 ### Run test of singleton 
