@@ -21,7 +21,6 @@ Within a src folder you must be follow the example of Factory Method also a Read
 # HackerRank Problem Solving
 I wan to put in this place the exercise to hackerrank challenges, with the respective test.
 
-### Run test of migration bird exercise. 
-[Link](https://www.hackerrank.com/challenges/migratory-birds/problem)
+### Run test of migration bird exercise. [link](https://www.hackerrank.com/challenges/migratory-birds/problem)
 `npm run test-mb`
 
